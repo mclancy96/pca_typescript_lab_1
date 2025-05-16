@@ -14,3 +14,10 @@
 // Your code here 👇
 
 // DO NOT EDIT BELOW (for test purposes only)
+
+const formatId = (id: string | number) => {
+  if (typeof id === 'string') {
+    return id.toUpperCase()
+  }
+  return id.toString().padStart(5, '0')
+}
