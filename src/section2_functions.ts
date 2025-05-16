@@ -13,8 +13,6 @@
 
 // DO NOT EDIT BELOW (for test purposes only)
 
-const greet = (name: string): string => `Hello, ${name}!`;
-
 const double = (num: number): number => num * 2;
 
 const isEven = (num: number): boolean => num % 2 === 0;
