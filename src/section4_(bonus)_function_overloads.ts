@@ -11,8 +11,6 @@
 
 // Your code here 👇
 
-// DO NOT EDIT BELOW (for test purposes only)
-
 const formatId = (id: string | number): string => {
   if (typeof id === "string") {
     return id.toUpperCase();

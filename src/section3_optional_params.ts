@@ -10,7 +10,5 @@
 
 // Your code here 👇
 
-// DO NOT EDIT BELOW (for test purposes only)
-
 const greet = (name: string, greeting: string = "Hello"): string =>
   `${greeting}, ${name}!`;
