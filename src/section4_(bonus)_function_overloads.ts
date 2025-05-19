@@ -13,9 +13,9 @@
 
 // DO NOT EDIT BELOW (for test purposes only)
 
-const formatId = (id: string | number) => {
-  if (typeof id === 'string') {
-    return id.toUpperCase()
+const formatId = (id: string | number): string => {
+  if (typeof id === "string") {
+    return id.toUpperCase();
   }
-  return id.toString().padStart(5, '0')
-}
+  return id.toString().padStart(5, "0");
+};
